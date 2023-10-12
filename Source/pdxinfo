@@ -1,0 +1,6 @@
+name=LuaC Test
+author=Peter Tripp
+description=Plyadate-Lua-C
+bundleID=net.notpeter.lucac
+version=0.1.1
+buildNumber=1001
