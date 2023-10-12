@@ -1,3 +1,4 @@
+#include "pd_api.h"
 #include "qrq.h"
 
 const lua_val not_Values[] = {
@@ -5,7 +6,6 @@ const lua_val not_Values[] = {
         (lua_val) {.name = "kMedium", .type = kInt, .v = {2} },
         (lua_val) {.name = "kHigh", .type = kInt, .v = {3} },
 };
-
 
 void registerNot(PlaydateAPI* playdate) {
     const char* err2;
